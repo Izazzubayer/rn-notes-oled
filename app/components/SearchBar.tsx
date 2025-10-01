@@ -34,7 +34,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           size="md" 
           flex={1}
           borderColor="$borderDark800"
-          borderRadius="$full"
+          borderRadius="$md"
         >
           <InputField
             value={internalValue}
